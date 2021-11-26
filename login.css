@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: block;
+    justify-content: space-around;
+}
+header .login{
+    text-align: center;
+    margin-top: 50px;
+}
+header .login h1{
+    font-size: 48px;
+    font-family: 'Rozha One', serif;
+}
+header .login h2{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+header .login div button a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(64, 64, 116);
+}
+header .login div button{
+    background-color: rgb(64, 64, 116);
+    border: 1px solid rgb(64, 64, 116);
+}
+main .login-title-one{
+    text-align: center;
+    justify-content: center;
+    background-color:#0000FF;
+    width: 20%;
+    height: 30px;
+    margin-left: 615px;
+    margin-top: 50px;
+}
+main .login-title-one i{
+    color: white;
+    font-size: 14px;
+}
+main .login-title-two{
+    text-align: center;
+    justify-content: center;
+    background-color:#4169E1;
+    width: 20%;
+    height: 30px;
+    margin-left: 615px;
+    margin-top: 10px;
+}
+main .login-title-two i{
+    color: white;
+    font-size: 14px;
+}
+.signup{
+    text-align: center;
+    margin-top: 15px;
+}
+.signup_one{
+    border: 1px solid black;
+    width: 20%;
+    height: 40px;
+    margin-left: 615px;
+    margin-top: 10px;
+    text-align: center;
+}

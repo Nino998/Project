@@ -1,0 +1,263 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.left
+.middle
+.right{
+    width: 100%;
+}
+.conteiner{
+    width: 100%;
+    display: grid;
+    margin-top: 20px;
+}
+.conteiner header{
+    display: flex;
+    justify-content: space-around;
+}
+.conteiner .left{
+    width: 100px;
+    height: 90px;
+}
+.conteiner .left div svg{
+    width: 100px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.conteiner header .left_nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: 'Rozha One', serif;
+}
+header .right_nav ul li{
+    display: inline-block;
+}
+header .right_nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+}
+.conteiner header .right_nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:300;
+}
+header .right_nav p a span{
+    display: block
+}
+header .right_nav p{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 3px;
+}
+header .right_nav a span{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.conteiner main .banner{
+    margin-top: 60px;
+    width: 100%;
+    height: 821px;
+    background-image: url(https://static.wixstatic.com/media/86cb94_6e23f9ddcef64433a7c1c9270e338c3a~mv2_d_6204_3531_s_4_2.jpg/v1/fill/w_1899,h_1025,al_t,q_85,usm_0.66_1.00_0.01/86cb94_6e23f9ddcef64433a7c1c9270e338c3a~mv2_d_6204_3531_s_4_2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner main .banner div h1{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+main .banner div p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+main .banner div button{
+    display: block;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px;
+    border-radius: 1px;
+    cursor: pointer;
+    border: solid 1px white;
+    text-align: center;
+    margin-left: 150px;
+} 
+.conteiner main .paragraph_first{
+    width: 100%;
+    height: 100%;
+    background-color: #EFE9E6;
+    margin-top: 50px;
+}
+.conteiner main .paragraph_first div h1{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.conteiner main .paragraph_first div p{
+    width: 700px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 400px;
+}
+.conteiner main .paragraph_first div a button{
+    outline: none;
+    display: block;
+    border: 1px solid black;
+    font-size: 15px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 1px;
+    background:#EFE9E6;
+    color:black;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    text-align: center;
+    margin-left: 700px;
+}
+.right h1{
+    text-align: center;
+    font-family: 'Rozha One', serif;
+    margin-top: 40px;
+}
+.right .svg{
+    display:flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 150px;
+}
+main .img div h2{
+    font-size: 28px;
+    color:black;
+    text-align: center;
+}
+main .img{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://images-vod.wixmp.com/84770f67-ecbd-44b6-b35a-584f2dc15af1/images/16b54908d198484cb309c11353175098~mv2/v1/fill/w_1138,h_476,q_85,usm_0.66_1.00_0.01/file.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+main .img div a{
+    font-size:18px ;
+    color: black;
+    margin-left: 100px;
+} 
+main .img_middle{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+main .img_middle p{
+    text-align: center;
+    margin-right: 350px;
+    margin-top: 10px;
+    background-color: grey;
+}
+.banner_two{
+    width: 100%;
+    height: 540px;
+    background-image: url(https://static.wixstatic.com/media/86cb94_2aab507a4a174fa7914ff41583146c13~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_1899,h_675,al_t,q_85,usm_0.66_1.00_0.01/86cb94_2aab507a4a174fa7914ff41583146c13~mv2_d_5472_3648_s_4_2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.banner_two h1{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Rozha One', serif;
+}
+.banner_two span{
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.singin div h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.singin div p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+.singin div a{
+    text-decoration: none;
+    color: black;
+    margin-left: 650px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+.layout{
+    margin-top: 50px;
+    width: 80%;
+}
+.layout .form-control{
+    font-weight: bold;
+    
+}
+.layout .row .email{
+    margin-top: 10px;
+}
+.layout .column{
+    margin-top: 10px;
+}
+.layout .column .massage{
+    margin-top: 10px;
+}
+.layout a{
+    outline: none;
+    display: block;
+    border: 1px solid white;
+    border-radius: 1px;
+    text-align: center;
+    margin-top: 40px;
+}
+.layout button{
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    width: 10%;
+    height: 40px;
+}
+.map{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.middle_two{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    justify-content: space-around;
+    background-color: #EFE6E9;
+    margin-top: 20px;
+}
+.middle_two p{
+    font-size: 12px;
+}
